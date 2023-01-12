@@ -8,5 +8,29 @@
 }
 
 body {
+    background-image: url("../img/Background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    background-color: #fdfdfd;
+    color: #102f5e;
+    border: 2px solid #102f5e;
+    padding: .3rem 6.rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #102f5e;
+}
+
+button:hover > i {
+    color: #fff;
     
 }
