@@ -10,7 +10,7 @@
 body {
   background-image: url("../img/Background.jpg");
   background-position: center;
-  background-size: cover;
+  /* background-size: cover; */
   width: 100vw;
   height: 80vh;
   /*display: flex;*/
@@ -60,6 +60,7 @@ select {
   background-color: #fdfdfd;
   padding: 1.5rem;
   border-radius: 15px;
+  /*display: block;*/
 }
 
 .todo-container header {
